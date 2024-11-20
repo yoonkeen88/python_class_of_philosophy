@@ -49,14 +49,14 @@
 ## 불용어 제거는 nltk
 
 ## Twitter
-# s = "It's Not The Right Time To Conduct Exams. MY DEMAND IN BOLD AND CAPITAL. NO EXAM IN COVID!!!"
+s = "It's Not The Right Time To Conduct Exams. MY DEMAND IN BOLD AND CAPITAL. NO EXAM IN COVID!!!"
 
-# print(f"Entered = {s}")
-# count = 0
-# for word in s.split():
-#     if(word == word.upper()):
-#         count +=1 
-# print(f"\n대문자 단어의 수 = {count}")
-# t = s.lower().replace("!", "").replace(".", "").replace("'","")
-# print(f"Result: {t}")
+print(f"Entered = {s}")
+count = 0
+for word in s.split():
+    if(word == word.upper()):
+        count +=1 
+print(f"\n대문자 단어의 수 = {count}")
+t = s.lower().replace("!", "").replace(".", "").replace("'","")
+print(f"Result: {t}")
 
